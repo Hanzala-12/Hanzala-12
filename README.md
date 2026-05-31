@@ -20,7 +20,7 @@ An end-to-end facial recognition system that identifies 16 Pakistani politicians
 ### 🤖 [AutoFix Agent](https://github.com/Hanzala-12/AutoFix-Agent)
 An autonomous AI software engineer that watches a GitHub issue tracker for `bug`-tagged issues, reproduces them inside an isolated Docker sandbox, uses `tree-sitter` AST parsing to give the LLM precise function-level context, generates a patch via a ReAct loop, runs regression tests to verify the fix, and opens a pull request automatically. Supports both API-based models (Claude, OpenRouter) and local Ollama for air-gapped use.
 
-### 🎙️ [Voice Cleaning Pipeline](https://github.com/Hanzala-12/voice-cleaning-pipeline)
+### 🎙️ [Lectra-AI](https://github.com/Hanzala-12/lectra-ai)
 A production-oriented speech enhancement platform built for research and deployment:
 - **Noise removal** via DeepFilterNet3, speaker diarization via pyannote, transcription via faster-whisper
 - **2,950+ lines** of hand-written custom DSP modules: audio quality profiling, spectral restoration, and adaptive routing
