@@ -1,82 +1,35 @@
+<a href="https://hanzala-12.github.io"><img src="banner.svg" alt="M. Hanzala — AI Systems Engineer, FAST-NUCES, Pakistan" width="100%"/></a>
+
 # Hi, I'm M. Hanzala 👋
 
-![Last Updated](https://img.shields.io/badge/last%20updated-May%202026-brightgreen?style=flat-square)
+I build end-to-end AI systems — from deep learning pipelines and autonomous agents to production-ready APIs and full-stack applications. Real systems, not toy demos.
 
-I build end-to-end AI systems — from deep learning pipelines and autonomous agents to production-ready APIs and full-stack applications. My work sits at the intersection of applied ML, MLOps tooling, and agentic AI: real systems, not toy demos.
+🌐 Portfolio: **[hanzala-12.github.io](https://hanzala-12.github.io)** · 🎓 AI student at **FAST-NUCES**, Pakistan
 
-🎓 AI student at **FAST National University of Computer and Emerging Sciences (NUCES)**, Pakistan
-
-🔭 Currently building: A multi-agent LLM system for automated code review & refactoring.
-
-🌱 Currently Learning: Advanced retrieval-augmented generation (RAG) patterns, quantization techniques for edge deployment, and multi-modal foundation models.
+🔭 Building: a multi-agent LLM system for automated code review & refactoring
+🌱 Learning: advanced RAG patterns, edge quantization, multi-modal foundation models
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🧠 [Pakistani Politician Image Classifier](https://github.com/Hanzala-12/pakistani-politician-classifier)
-An end-to-end facial recognition system that identifies 16 Pakistani politicians from images. Trained three models (ArcFace + InceptionResNetV1, ArcFace + VGGFace2, ResNet-50) on 1,687 MTCNN-aligned images, achieving up to **96.32% test accuracy**. The full MLOps stack is wired in: DVC for data versioning, MLflow for experiment tracking, Apache Airflow for orchestration, GitHub Actions for CI/CD, Docker for deployment, and a FastAPI + React frontend for inference.
+**[Pakistani Politician Image Classifier](https://github.com/Hanzala-12/pakistani-politician-classifier)** — Facial recognition across 16 politicians, three architectures compared. `96.32% test accuracy` on 1,687 MTCNN-aligned images, shipped with a full MLOps stack: DVC, MLflow, Airflow, Docker, FastAPI + React.
 
-### 🤖 [AutoFix Agent](https://github.com/Hanzala-12/AutoFix-Agent)
-An autonomous AI software engineer that watches a GitHub issue tracker for `bug`-tagged issues, reproduces them inside an isolated Docker sandbox, uses `tree-sitter` AST parsing to give the LLM precise function-level context, generates a patch via a ReAct loop, runs regression tests to verify the fix, and opens a pull request automatically. Supports both API-based models (Claude, OpenRouter) and local Ollama for air-gapped use.
+**[AutoFix Agent](https://github.com/Hanzala-12/AutoFix-Agent)** — Watches a GitHub issue tracker, reproduces `bug`-tagged issues in a sandbox, and opens a tested pull request itself. `Issue → PR`, no human touch on the diff. Tree-sitter AST context, ReAct loop, Claude/OpenRouter or local Ollama.
 
-### 🎙️ [Lectra-AI](https://github.com/Hanzala-12/lectra-ai)
-A production-oriented speech enhancement platform built for research and deployment:
-- **Noise removal** via DeepFilterNet3, speaker diarization via pyannote, transcription via faster-whisper
-- **2,950+ lines** of hand-written custom DSP modules: audio quality profiling, spectral restoration, and adaptive routing
-- **Up to 64× speedup** on CPU-intensive ops via Numba JIT compilation and SIMD vectorization
-- Deployed via Docker Compose with a FastAPI backend and React frontend
+**[Lectra-AI](https://github.com/Hanzala-12/lectra-ai)** — Production speech enhancement: noise removal, diarization, transcription. `64× CPU speedup` via hand-written Numba/SIMD DSP (2,950+ lines) on top of DeepFilterNet3, pyannote, faster-whisper.
 
-### 💼 [JobSync](https://github.com/Hanzala-12/jobsync)
-A file-driven AI job-search agent built on the GAME (Goal-Actions-Memory-Environment) framework. Reads job postings, resumes, and knowledge base documents (TXT + PDF), performs skill-gap analysis via Groq's Llama 3, generates tailored resume suggestions, cover letters, LinkedIn messages, and interview questions, and tracks applications with urgency-aware reminders. Comes with a FastAPI backend and React frontend as a bonus web layer.
+**[JobSync](https://github.com/Hanzala-12/jobsync)** — A GAME-framework agent that reads postings and resumes, runs skill-gap analysis via Groq/Llama 3, and drafts tailored applications with urgency-aware tracking.
 
-### 🗂️ [LifSync AI Assistant](https://github.com/Hanzala-12/lifsync-ai-assistant)
-A full-stack personal operations platform for document intake, task extraction, billing workflows, and reminders — a personal AI chief of staff built in Python.
+**[LifSync AI Assistant](https://github.com/Hanzala-12/lifsync-ai-assistant)** — A personal AI chief of staff: document intake, task extraction, billing, and reminders in one full-stack platform.
+
+⬇️ More in my pinned repositories below.
 
 ---
 
-⬇️ Check out my pinned repositories below for my best work.
+## 🧰 Stack
 
----
-
-## 🧰 Tech Toolbox
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-**ML / AI**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq_API-FF6B00?style=flat-square&logoColor=white)
-
-**MLOps & DevOps**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
-![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-
-**Backend & APIs**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-
-**Signal Processing**
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-![Numba](https://img.shields.io/badge/Numba-00A3E0?style=flat-square&logoColor=white)
+`Python` `TypeScript` `PyTorch` `FastAPI` `Docker` `MLflow` `DVC` `Airflow` `React` `NumPy` · [full breakdown →](https://hanzala-12.github.io#toolbox)
 
 ---
 
@@ -90,12 +43,6 @@ A full-stack personal operations platform for document intake, task extraction, 
 
 ## 📬 Get in Touch
 
-I'm always open to interesting conversations, collaboration, or just a good technical discussion.
-
-- 📧 Email: [yaqoobhanzala@gmail.com](mailto:yaqoobhanzala@gmail.com)
-- 💼 LinkedIn: https://www.linkedin.com/in/hanzala-yaqoob-30545a29a/
-
-
----
+📧 [yaqoobhanzala@gmail.com](mailto:yaqoobhanzala@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/hanzala-yaqoob-30545a29a/) · 🌐 [Portfolio](https://hanzala-12.github.io)
 
 *Building things that actually work, one pipeline at a time.*
