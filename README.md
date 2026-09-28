@@ -23,7 +23,9 @@ I build end-to-end AI systems — from deep learning pipelines and autonomous ag
 
 **[LifSync AI Assistant](https://github.com/Hanzala-12/lifsync-ai-assistant)** — A personal AI chief of staff: document intake, task extraction, billing, and reminders in one full-stack platform.
 
-⬇️ More in my pinned repositories below.
+**[Pakistan Flood Risk Monitor](https://github.com/Hanzala-12/pakistan-flood-risk-monitor)** — District-level flood risk monitor for Pakistan's Indus-basin flood belt, fusing satellite water detection, rainfall anomaly, and terrain susceptibility into one risk score per district.
+
+⬇️ More below — or see every repo with live stars and sort-by-recency on my **[portfolio's live repo browser →](https://hanzala-12.github.io#repos-h)**
 
 ---
 

@@ -1,8 +1,8 @@
 <svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="1200" height="260" fill="#0B0F14"/>
+  <rect x="0" y="0" width="1200" height="260" fill="#0A0E14"/>
 
   <!-- faint blueprint grid -->
-  <g stroke="#1D2733" stroke-width="1">
+  <g stroke="#242C38" stroke-width="1">
     <line x1="0" y1="65" x2="1200" y2="65"/>
     <line x1="0" y1="130" x2="1200" y2="130"/>
     <line x1="0" y1="195" x2="1200" y2="195"/>
@@ -12,22 +12,22 @@
   </g>
 
   <!-- corner registration marks -->
-  <g stroke="#E8933D" stroke-width="1.5" opacity="0.8">
+  <g stroke="#FF7A45" stroke-width="1.5" opacity="0.8">
     <line x1="32" y1="24" x2="48" y2="24"/>
     <line x1="40" y1="16" x2="40" y2="32"/>
     <line x1="1152" y1="236" x2="1168" y2="236"/>
     <line x1="1160" y1="228" x2="1160" y2="244"/>
   </g>
 
-  <text x="60" y="70" font-family="'IBM Plex Mono', 'Consolas', 'SFMono-Regular', monospace" font-size="15" letter-spacing="2" fill="#E8933D">AI SYSTEMS ENGINEER &#8212; FAST-NUCES, PAKISTAN</text>
+  <text x="60" y="70" font-family="'IBM Plex Mono', 'Consolas', 'SFMono-Regular', monospace" font-size="15" letter-spacing="2" fill="#FF7A45">AI SYSTEMS ENGINEER &#8212; FAST-NUCES, PAKISTAN</text>
 
   <text x="58" y="150" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="66" fill="#E7ECF2">M. Hanzala</text>
 
   <text x="60" y="188" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#96A3B3">Deep learning pipelines and autonomous agents, shipped as production APIs.</text>
 
-  <text x="60" y="222" font-family="'IBM Plex Mono', 'Consolas', monospace" font-size="13" letter-spacing="0.5" fill="#5B93FF">github.com/Hanzala-12  /  hanzala-12.github.io</text>
+  <text x="60" y="222" font-family="'IBM Plex Mono', 'Consolas', monospace" font-size="13" letter-spacing="0.5" fill="#5AA9FF">github.com/Hanzala-12  /  hanzala-12.github.io</text>
 
   <!-- signal trace -->
   <path d="M700,222 L730,222 L742,206 L754,236 L766,212 L778,230 L800,222 L840,222 L852,202 L864,240 L876,210 L888,228 L915,222 L960,222 L972,200 L984,242 L996,208 L1008,230 L1035,222 L1140,222"
-        fill="none" stroke="#5B93FF" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+        fill="none" stroke="#FF7A45" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
 </svg>
